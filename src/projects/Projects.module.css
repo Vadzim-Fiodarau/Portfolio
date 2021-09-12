@@ -1,0 +1,59 @@
+.projectsBlock {
+    min-height: 100vh;
+    background-color: brown;
+}
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: grey;
+}
+
+.projects {
+    border: solid 1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.project {
+    width: 350px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.imageContainer {
+    height: 200px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projectButton {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-size: large;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    font-size: large;
+}

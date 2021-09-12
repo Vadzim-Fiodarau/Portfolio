@@ -1,0 +1,24 @@
+.footerBlock {
+    height: 50vh;
+    background-color: blueviolet;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer {
+    border: solid 1px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: rosybrown;
+}
+

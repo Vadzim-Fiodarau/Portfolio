@@ -1,0 +1,20 @@
+.teleworkBlock {
+    height: 30vh;
+    background-color: bisque;
+}
+
+.teleworkContainer {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.telework {
+    border: solid 1px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
