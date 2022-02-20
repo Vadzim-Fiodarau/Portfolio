@@ -1,5 +1,4 @@
 .contactsBlock {
-    height: 100vh;
     background-color: blue;
 }
 
@@ -11,13 +10,24 @@
 .contacts {
 
 }
+.title{
+    background-color: #eeeef5;
+}
 
 .formContainer {
-    width: 280px;
+    width: 50%;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 20px;
-    border: 1px solid;
+    align-items: center;
+}
+
+.submitBtn{
+    padding: 10px 20px;
+    background-color: #eeeef5;
+}
+
+.formContainer input, .formContainer textarea {
+    width: 100%;
 }

@@ -1,33 +1,27 @@
 import styles from './Projects.module.css'
 import styleContainer from '../common/styles/Container.module.css'
+import {Project} from "./project/Projects";
+import {Title} from "../common/components/title/Title";
 
 
 export const Projects = () => {
     return (
         <div className={styles.projectsBlock}>
             <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
-                <h2 className={styles.title}>Projects</h2>
+                <Title title={'Projects'}/>
                 <div className={styles.projects}>
 
-                    <div className={styles.project}>
-                        <div className={styles.imageContainer}>
-                            <a href={'#'} className={styles.projectButton}>OPEN PROJECT</a>
-                        </div>
-                        <h3>Todolist</h3>
-                        <div className={styles.description}>
-                            My first project in IT-INCUBATOR
-                        </div>
-                    </div>
+                    <Project title={'Todolist'}
+                             description={'My first project in IT-INCUBATOR'}
+                             link={'https://vadzim-fiodarau.github.io/Todolist'}
+                             // image={'https://wallpaperaccess.com/full/2005056.png'}
+                    />
+                    <Project title={'Social Network'}
+                             description={'My second project in IT-INCUBATOR'}
+                             link={'https://Vadzim-Fiodarau.github.io/SocialNetwork'}
+                             // image={'https://wallpaperaccess.com/full/2005056.png'}
+                    />
 
-                    <div className={styles.project}>
-                        <div className={styles.imageContainer}>
-                            <a href={'#'} className={styles.projectButton}>OPEN PROJECT</a>
-                        </div>
-                        <h3>Social Network</h3>
-                        <div className={styles.description}>
-                            My second project in IT-INCUBATOR
-                        </div>
-                    </div>
                 </div>
             </div>
 

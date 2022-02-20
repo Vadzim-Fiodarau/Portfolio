@@ -6,13 +6,14 @@ export const Contacts = () => {
         <div className={styles.contactsBlock}>
             <div
                 className={`${styleContainer.container} ${styles.contactsContainer}`}>
-                    <h2>Contacts</h2>
+                    <h2 className={styles.title}>Contacts</h2>
                     <form className={styles.formContainer}>
                         <input type={'text'}/>
                         <input type={'text'}/>
-                        <textarea></textarea>
+                        <textarea/>
+                        <button type={'submit'} className={styles.submitBtn}>Send</button>
                     </form>
-                    <button type={'submit'}>Send</button>
+
             </div>
         </div>
     )
