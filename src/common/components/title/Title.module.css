@@ -22,7 +22,7 @@
     background: #ee6192;
     width: 55px;
     height: 1px;
-    bottom: -20px;
+    bottom: 0px;
     left: 50%;
     transform: translate(-50%, 50%);
 }

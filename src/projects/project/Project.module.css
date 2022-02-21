@@ -1,7 +1,7 @@
 
 .project {
-    width: 350px;
-    background-color: grey;
+    width: 470px;
+    background: #252527;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,29 +9,61 @@
 }
 
 .imageContainer {
-    height: 200px;
+    border: #252527 1px solid;
+    height: 300px;
     width: 100%;
-    background-image: url('https://wallpaperaccess.com/full/2005056.png');
+    background-color: #1f1f20;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
 
+.imageContainer::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    opacity: 0.4;
 }
 
 .projectButton {
     color: white;
     text-decoration: none;
-    background-color: black;
+    background-color: #252527;
     font-size: large;
-    width: 200px;
+    width: 150px;
     height: 50px;
     align-items: center;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.projectInfo {
+    padding: 25px 20px;
+}
+
+.projectTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    line-height: 1.2;
+    color: #ffffff;
 }
 
 .description {
-    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
 }
+
