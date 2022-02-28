@@ -1,16 +1,68 @@
+
 .mainBlock {
     height: 100vh;
-    background-color: rosybrown;
+    background-color: #1f1f20
 }
 
 .text {
-    width: 350px;
-    background-color: aliceblue;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.text::before {
+    position: absolute;
+    content: '';
+    bottom: 70px;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #4e93e6;
+    transform: translate(-50%, 50%);
+}
+
+.greetings {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+/*.nameContainer {*/
+/*    font-family: "Poppins", sans-serif;*/
+/*    font-size: 40px;*/
+/*    font-weight: 700;*/
+/*    color: #ffb400;*/
+/*}*/
+
+.nameText {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #4e93e6;
+}
+
+.position {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.positionText {
+    display: inline-block;
+
 }
 
 .photo {
+    background-image: url('../assets/image/s33tSPeU4Ik.jpg');
+    background-size: cover;
     width: 350px;
-    height: 400px;
-    background-color: aliceblue;
+    height: 455px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 2;
 
 }

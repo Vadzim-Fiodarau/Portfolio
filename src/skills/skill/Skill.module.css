@@ -1,19 +1,42 @@
 .skill {
     width: 240px;
-    background-color: grey;
+    background-color: #1f1f20;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 10px;
+    margin: 10px;
 
 }
 
 .icon {
-    height: 60px;
-    width: 60px;
-    background-color: rosybrown;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.skillInfo {
+    padding: 25px 20px;
+}
+
+.skillTitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
 }
 
 .description {
-
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #fff;
+    font-weight: 400;
 }

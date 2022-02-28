@@ -1,7 +1,11 @@
 .header {
-    height: 80px;
     display: flex;
-    justify-content: flex-end;
-    background-color: aquamarine;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #252527;
 }

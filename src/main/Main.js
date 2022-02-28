@@ -7,11 +7,21 @@ export const Main = () => {
         <div className={styles.mainBlock}>
             <div className={styleContainer.container}>
             <div className={styles.text}>
-                <span>Hi there</span>
-                <h1>I am Vadim Fedorov</h1>
-                <p>Frontend Developer </p>
+                <span className={styles.greetings}>Hi there, I'm</span>
+                <span >
+                     <span className={styles.nameText}> Vadim Fedorov</span>
+                </span>
+                <div>
+                    <span className={styles.position}>
+                        <div>Frontend Developer</div>
+                        <span className={styles.positionText}></span>
+                    </span>
+                </div>
+
             </div>
-            <div className={styles.photo}></div>
+            <div className={styles.photo}>
+
+            </div>
             </div>
         </div>
     )
