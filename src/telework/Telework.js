@@ -6,8 +6,10 @@ export const Telework = () => {
         <div className={styles.teleworkBlock}>
             <div className={`${styleContainer.container} ${styles.teleworkContainer}`}>
                 <div className={styles.telework}>
-                    <h2>I am available for remote work</h2>
-                    <button type={'submit'}>Hire me</button>
+                    <h2 className={styles.teleworkTitle}>I am available for remote work</h2>
+                    <a href={'https://www.linkedin.com/in/vadimfedoroff/'}
+                       className={styles.teleworkButton}> Hire me
+                    </a>
                 </div>
             </div>
         </div>

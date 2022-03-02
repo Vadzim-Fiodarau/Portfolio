@@ -4,6 +4,7 @@ import {Project} from "./project/Project";
 import {Title} from "../common/components/title/Title";
 import todoImage from './../assets/image/todo.jpg'
 import socialImage from './../assets/image/social.jpg'
+import counterImage from './../assets/image/counter.jpg'
 
 
 export const Projects = () => {
@@ -13,6 +14,9 @@ export const Projects = () => {
     const todo = {
         backgroundImage: `url(${todoImage})`
     }
+    const counter = {
+        backgroundImage: `url(${counterImage})`
+    }
 
     return (
         <div className={styles.projectsBlock}>
@@ -21,14 +25,25 @@ export const Projects = () => {
                 <div className={styles.projects}>
 
                     <Project title={'Todolist'}
-                             description={'My first project in IT-INCUBATOR'}
+                             description={'Web application designed to conveniently structure information about all current tasks in one place.'}
+                             secondTitle={'Technologies:'}
+                             secondDescription={'ReactJS, TS, Redux-thunk, Axios, Formik, Material UI, Sass.'}
                              link={'https://vadzim-fiodarau.github.io/Todolist'}
-                             style={social}
+                             style={todo}
                     />
                     <Project title={'Social Network'}
-                             description={'My second project in IT-INCUBATOR'}
+                             description={'Web application that allows registered users to post information and communicate with each other.'}
+                             secondTitle={'Technologies:'}
+                             secondDescription={'ReactJS, TS, Redux-thunk, Axios, Redux-form, CSS.'}
                              link={'https://Vadzim-Fiodarau.github.io/SocialNetwork'}
-                             style={todo}
+                             style={social}
+                    />
+                    <Project title={'Simple Counter'}
+                             description={'Simple counter with additional settings'}
+                             secondTitle={'Technologies:'}
+                             secondDescription={'ReactJS, TS, Redux, CSS.'}
+                             link={'https://Vadzim-Fiodarau.github.io/SimpleCounterWithRedux'}
+                             style={counter}
                     />
 
                 </div>

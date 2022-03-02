@@ -7,7 +7,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  margin: 20px;
+
 
   .imageContainer {
     height: 300px;
@@ -29,39 +30,55 @@
       right: 0;
       opacity: 0.4;
     }
-
-    .projectButton {
-      color: $textColor;
-      text-decoration: none;
-      background-color: $primaryColor;
-      font-size: large;
-      width: 150px;
-      height: 50px;
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      position: relative;
-      z-index: 1;
-    }
   }
 
   .projectInfo {
     padding: 25px 20px;
+    width: 100%;
+
 
     .projectTitle {
       @include text($titleFontFamily, 16px, 1.2,);
       letter-spacing: 1px;
-      margin: 0 0 5px;
-
+      margin: 15px 0 0 0;
+      color: $primaryColor
 
 
     }
-      .description {
-        @include text($textFontFamily,12px , 1.8);
-        font-weight: 400;
-      }
+
+    .description {
+      @include text($textFontFamily, 12px, 1.8);
+      font-weight: 400;
     }
   }
+  .projectButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+  }
+
+  .projectButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    overflow: hidden;
+    border: 2px solid $primaryColor;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: .5s;
+    font-family: $textFontFamily;
+    font-weight: 400;
+    color: $textColor;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
 
 
 
