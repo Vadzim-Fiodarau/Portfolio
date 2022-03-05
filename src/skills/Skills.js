@@ -5,7 +5,7 @@ import {Title} from "../common/components/title/Title";
 
 export const Skills = () => {
     return (
-        <div className={styles.skillsBlock}>
+        <section className={styles.skillsBlock} id={'skillsId'}>
             <div
                 className={`${styleContainer.container} ${styles.skillsContainer}`}>
                 <Title title={'Skills'}/>
@@ -53,6 +53,6 @@ export const Skills = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }

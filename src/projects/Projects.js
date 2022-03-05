@@ -19,7 +19,7 @@ export const Projects = () => {
     }
 
     return (
-        <div className={styles.projectsBlock}>
+        <section className={styles.projectsBlock} id={'projectsId'}>
             <div className={`${styleContainer.container} ${styles.projectsContainer}`}>
                 <Title title={'Projects'}/>
                 <div className={styles.projects}>
@@ -49,6 +49,6 @@ export const Projects = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }

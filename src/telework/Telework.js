@@ -3,7 +3,7 @@ import styleContainer from "../common/styles/Container.module.css";
 
 export const Telework = () => {
     return (
-        <div className={styles.teleworkBlock}>
+        <section className={styles.teleworkBlock} id={'teleworkId'}>
             <div className={`${styleContainer.container} ${styles.teleworkContainer}`}>
                 <div className={styles.telework}>
                     <h2 className={styles.teleworkTitle}>I am available for remote work</h2>
@@ -12,6 +12,6 @@ export const Telework = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

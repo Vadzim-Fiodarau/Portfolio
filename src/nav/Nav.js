@@ -1,12 +1,16 @@
 import styles from './Nav.module.css'
+import { Link, animateScroll as scroll } from "react-scroll";
+
+
 
 export const Nav = () => {
     return (
         <div className={styles.nav}>
-            <a className={styles.link} href=''>Main</a>
-            <a className={styles.link} href=''>Skills</a>
-            <a className={styles.link} href=''>Project</a>
-            <a className={styles.link} href=''>About</a>
+            <Link to={'mainId'} className={styles.link} href="" spy={true} smooth={true} >Main</Link>
+            <Link to={'skillsId'} className={styles.link} href="" spy={true} smooth={true} >Skills</Link>
+            <Link to={'projectsId'} className={styles.link} href="" spy={true} smooth={true} >Project</Link>
+            <Link to={'teleworkId'} className={styles.link} href="" spy={true} smooth={true} >Remote</Link>
         </div>
     )
 }
+

@@ -4,7 +4,7 @@ import styleContainer from '../common/styles/Container.module.css'
 
 export const Main = () => {
     return (
-        <div className={styles.mainBlock}>
+        <section className={styles.mainBlock} id={'mainId'}>
             <div className={styleContainer.container}>
             <div className={styles.text}>
                 <span className={styles.greetings}>Hi there, I'm</span>
@@ -23,6 +23,6 @@ export const Main = () => {
 
             </div>
             </div>
-        </div>
+        </section>
     )
 }
