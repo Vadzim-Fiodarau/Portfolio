@@ -13,7 +13,7 @@ export const Main = () => {
                 </span>
                 <div>
                     <span className={styles.position}>
-                        <div>Frontend Developer</div>
+                        <div>Frontend Developer (React)</div>
                         <span className={styles.positionText}></span>
                     </span>
                 </div>

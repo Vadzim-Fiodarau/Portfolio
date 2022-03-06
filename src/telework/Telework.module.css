@@ -1,46 +1,47 @@
 .teleworkBlock {
-    height: 40vh;
+    height: 60vh;
     background-color: #252527;
 }
 
 .teleworkContainer {
+
     flex-direction: row;
     justify-content: flex-start;
 }
 
 .telework {
-
+    border-radius: 5px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-
+    background-color: #1f1f20;
 
 }
 
-.teleworkTitle {
-    margin: 0 0 30px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 400;
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 5px;
-}
+/*.teleworkTitle {*/
+/*    margin: 60px 0 30px;*/
+/*    font-family: "Josefin Sans", sans-serif;*/
+/*    font-weight: 400;*/
+/*    color: #fff;*/
+/*    text-transform: capitalize;*/
+/*    font-size: 36px;*/
+/*    line-height: 1.2;*/
+/*    letter-spacing: 5px;*/
+/*}*/
 
-.teleworkTitle::before {
-    content: "";
-    position: absolute;
-    background: #4e93e6;
-    width: 55px;
-    height: 1px;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 50%);
-}
+/*.teleworkTitle::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background: #4e93e6;*/
+/*    width: 55px;*/
+/*    height: 1px;*/
+/*    bottom: 0;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 50%);*/
+/*}*/
 
 .teleworkButton {
     display: flex;
@@ -53,6 +54,7 @@
     border: 2px solid #4e93e6;
     border-radius: 5px;
     margin-bottom: 20px;
+    margin-top: 40px;
     transition: 0.5s;
     font-family: "Poppins", sans-serif;
     font-weight: 400;

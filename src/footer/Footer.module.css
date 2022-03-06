@@ -1,10 +1,10 @@
 .footerBlock {
-    background-color: blueviolet;
+    background-color: #252527;
 }
 
 .footerContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer {
