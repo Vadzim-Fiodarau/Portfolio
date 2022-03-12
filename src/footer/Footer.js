@@ -23,14 +23,8 @@ export const Footer = (props) => {
             <div
                 className={`${styleContainer.container} ${styles.footerContainer}`}>
                 {footerLinks}
-                {/*<h2>Vadim Fedorov</h2>*/}
-                {/*<div className={styles.footer}>*/}
-                {/*    <div className={styles.icon}></div>*/}
-                {/*    <div className={styles.icon}></div>*/}
-                {/*    <div className={styles.icon}></div>*/}
-                {/*</div>*/}
-                {/*<h2>&copy; 2021 All right reserved</h2>*/}
             </div>
+            <p className={styles.allRightReserved}>Vadim Fedorov, &copy; 2021 All right reserved</p>
         </div>
     )
 }

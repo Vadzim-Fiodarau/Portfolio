@@ -16,3 +16,7 @@
     transition: .3s;
     margin-top: 20px;
 }
+
+.linkText:hover {
+    color: #4e93e6
+}

@@ -1,11 +1,13 @@
 .footerBlock {
     background-color: #252527;
+    padding: 20px;
 }
 
 .footerContainer {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
 
 .footer {
     border: solid 1px;
@@ -21,3 +23,11 @@
     background-color: rosybrown;
 }
 
+.allRightReserved {
+    visibility: visible;
+    animation-name: fadeInUp;
+    font: 400 14px/1.8 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    color: rgba(255, 255, 255, .5);
+}

@@ -17,17 +17,6 @@ li {
 }
 
 
-/*.title{*/
-/*    margin: 100px 0 30px;*/
-/*    font-family: "Josefin Sans", sans-serif;*/
-/*    font-weight: 400;*/
-/*    color: #fff;*/
-/*    text-transform: capitalize;*/
-/*    font-size: 36px;*/
-/*    line-height: 1.2;*/
-/*    letter-spacing: 5px;*/
-/*}*/
-
 
 .formContainer {
     width: 50%;
@@ -55,6 +44,15 @@ li {
     height: 40px;
     font-size: 16px;
     cursor: pointer;
+}
+
+.submitBtn[disabled] {
+    opacity: .2;
+    cursor: default;
+}
+
+.submitBtn[disabled]:hover {
+    letter-spacing: 0;
 }
 
 .formContainer input, .formContainer textarea {

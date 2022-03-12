@@ -51,7 +51,8 @@
       font-weight: 400;
     }
   }
-  .projectButtonContainer{
+
+  .projectButtonContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,6 +78,10 @@
     width: 140px;
     height: 40px;
     font-size: 16px;
+
+    &:hover {
+      color: #4e93e6
+    }
   }
 }
 

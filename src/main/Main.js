@@ -1,6 +1,6 @@
 import styles from './Main.module.css'
 import styleContainer from '../common/styles/Container.module.css'
-
+import ReactTypingEffect from 'react-typing-effect';
 
 export const Main = () => {
     return (
@@ -13,7 +13,16 @@ export const Main = () => {
                 </span>
                 <div>
                     <span className={styles.position}>
-                        <div>Frontend Developer (React)</div>
+                        <div>
+                            <ReactTypingEffect
+                            text={"Front-end developer (React) from Belarus. Nice to meet you."}
+                            speed={100}
+                            eraseSpeed={50}
+                            eraseDelay={7000}
+                            typingDelay={0}
+                            className={styles.mainPositionText}
+                        />
+                        </div>
                         <span className={styles.positionText}></span>
                     </span>
                 </div>
