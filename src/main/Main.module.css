@@ -59,13 +59,13 @@
     background-size: cover;
     width: 350px;
     height: 430px;
-    /*background-position: center;*/
+    background-position: center;
     background-repeat: no-repeat;
     border: 1px solid white;
     border-radius: 20px;
     overflow: hidden;
     z-index: 2;
-
+    margin-top: 70px;
 }
 
 .mainPositionText {

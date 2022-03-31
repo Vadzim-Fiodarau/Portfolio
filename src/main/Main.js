@@ -9,7 +9,7 @@ export const Main = () => {
             <div className={styles.text}>
                 <span className={styles.greetings}>Hi there, I'm</span>
                 <span >
-                     <span className={styles.nameText}> Vadim Fedorov!</span>
+                     <span className={styles.nameText}> Vadim Fedorov</span>
                 </span>
                 <div>
                     <span className={styles.position}>
